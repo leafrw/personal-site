@@ -1,7 +1,7 @@
-div {
+/* div {
   background-color: white;
 margin-left: 40%
-}
+} */
 
 p.big {
   font-size: 4em;
@@ -43,11 +43,11 @@ h2 {text-align: auto;
 color: blue};
 
 
-/* nav {
+nav {
   background-color: grey;
   padding: 10px 30% 10px 30%;
 display: flex;
-justify-content: space-between; */
+justify-content: space-between;
 }
 
 
@@ -55,19 +55,22 @@ p.little {
 font-size: .4em
 }
 
-
-
 h1 {text-align: center;
 color: black;
 }
 
 h1 {text-align: center;
 color: black;
+}
+
+.about-box {
+  display: flex;
+}
 
 
 
 
-/* .div1{
+.div1{
 height: 50px;
 width: 50px;
 float: right;
@@ -79,11 +82,40 @@ height: 50px;
 width: 50px;
 float: left;
 background-color: blue
-} */
+}
 
-/*
-border-style: solid;
+.left-side {
+    border-style solid;
    border-width: 6px;
    border-left-width: 10px;
    border-right-width: 10px;
-   border-color: red;} */
+   border-color: red;}
+
+
+.product {
+width: 400px;
+border: 2px solid blue;
+margin: 10px 5px 10px 20px;
+}
+
+
+.product-photo {
+  display: block;
+  margin: auto;
+}
+
+.product-text {
+  text-align: center;
+}
+
+.product-text {
+  text-align: center;
+}
+
+.products-container {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  background-image: url("for site.gif");
+  background-repeat:
+}
