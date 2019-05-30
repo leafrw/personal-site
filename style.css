@@ -2,7 +2,9 @@
   background-color: white;
 margin-left: 40%
 } */
-
+body {
+  margin: 0;
+}
 p.big {
   font-size: 4em;
 }
@@ -32,10 +34,64 @@ div.right-side {
   text-align: center;
 }
 
+nav {
+  background-color: grey;
+  padding: 10px 30% 10px 30%;
+  display: flex;
+  justify-content: space-between;
 
+}
+
+a {
+  text-decoration:none;
+}
+
+a:hover{
+  color: yellow;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+.home-page-right-side {
+  border: 2px solid black;
+  height: 500px;
+  width: 40%;
+}
+
+.home-page-right-side:hover{
+  background-color: Gray;
+}
+
+.home-page-left-side {
+  border: 2px solid black;
+ }
+
+.home-page-left-side:hover{
+  border: 5px solid teal;
+ }
+
+.main-page {
+  display: flex;
+  justify-content: space-around;
+  background: url("Main Background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.link-button:hover{
+  background-color: blue;
+}
+
+.link-button {
+  margin: 40px auto;
+  display: block;
+}
 
 img{
-  margin-left:30%
+  margin-left:30%;
 }
 
 
@@ -55,33 +111,8 @@ p.little {
 font-size: .4em
 }
 
-h1 {text-align: center;
-color: black;
-}
-
-h1 {text-align: center;
-color: black;
-}
-
 .about-box {
   display: flex;
-}
-
-
-
-
-.div1{
-height: 50px;
-width: 50px;
-float: right;
-background-color: green
-}
-
-.div2{
-height: 50px;
-width: 50px;
-float: left;
-background-color: blue
 }
 
 .left-side {
@@ -91,31 +122,6 @@ background-color: blue
    border-right-width: 10px;
    border-color: red;}
 
-
-.product {
-width: 400px;
-border: 2px solid blue;
-margin: 10px 5px 10px 20px;
-}
-
-
-.product-photo {
-  display: block;
-  margin: auto;
-}
-
-.product-text {
-  text-align: center;
-}
-
-.product-text {
-  text-align: center;
-}
-
-.products-container {
-  display: flex;
-  flex-flow: wrap;
-  justify-content: space-around;
-  background-image: url("for site.gif");
-  background-repeat:
+body {
+     margin: 0;
 }
