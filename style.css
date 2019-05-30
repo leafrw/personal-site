@@ -55,24 +55,6 @@ h1 {
   text-align: center;
 }
 
-.home-page-right-side {
-  border: 2px solid black;
-  height: 500px;
-  width: 40%;
-}
-
-.home-page-right-side:hover{
-  background-color: Gray;
-}
-
-.home-page-left-side {
-  border: 2px solid black;
- }
-
-.home-page-left-side:hover{
-  border: 5px solid teal;
- }
-
 .main-page {
   display: flex;
   justify-content: space-around;
@@ -81,6 +63,12 @@ h1 {
   background-repeat: no-repeat;
 }
 
+.thumbnail-label {
+text-align: center;  
+}
+
+
+
 .link-button:hover{
   background-color: blue;
 }
@@ -88,10 +76,6 @@ h1 {
 .link-button {
   margin: 40px auto;
   display: block;
-}
-
-img{
-  margin-left:30%;
 }
 
 
