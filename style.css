@@ -16,9 +16,28 @@ div.left-side {
   border: 2px solid black;
 }
 
+h1 {
+  text color: purple;
+}
+
+
+
 div.right-side {
   width: 50%;
   border: 2px solid black;
+}
+
+.contactpage {
+  background: url("backgroundpic.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1000px;
+  background-position: 50px;
+}
+
+figure {
+  padding-top: 10%;
+
 }
 
 .about-photo {
@@ -56,12 +75,15 @@ h1 {
   text-align: center;
 }
 
-.main-page {
-  display: flex;
-  justify-content: space-around;
-  background: url("Main Background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+
+.skywrs {
+  margin: auto;
+  display: block;
+}
+
+.home-page-left-side {
+  margin: auto;
+  display: block;
 }
 
 .thumbnail-label {
@@ -81,10 +103,11 @@ text-align: center;
 
 
 h2 {text-align: center;
-color: purple};
+color: aqua;
+}
 
 .homepagelink {
-color: purple;
+color: aqua;
 }
 
 
@@ -93,11 +116,6 @@ nav {
   padding: 10px 30% 10px 30%;
 display: flex;
 justify-content: space-between;
-}
-
-
-p.little {
-font-size: .4em
 }
 
 .about-box {
