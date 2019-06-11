@@ -9,22 +9,9 @@ p.big {
   font-size: 4em;
 }
 
-
-}
-div.left-side {
-  width: 50%;
-  border: 2px solid black;
-}
-
-h1 {
-  text color: purple;
-}
-
-
-
-div.right-side {
-  width: 50%;
-  border: 2px solid black;
+.orderedlist {
+  justify-content: center;
+  list-style-position: inside;
 }
 
 .contactpage {
@@ -37,12 +24,6 @@ div.right-side {
 
 figure {
   padding-top: 10%;
-
-}
-
-.about-photo {
-  display: block;
-  margin: 0 auto;
 }
 
 .about-title {
@@ -58,7 +39,6 @@ nav {
   padding: 10px 30% 10px 30%;
   display: flex;
   justify-content: space-between;
-
 }
 
 a {
@@ -67,12 +47,13 @@ a {
 }
 
 a:hover{
-  color: green;
+  color: #40a56f;
 
 }
 
 h1 {
   text-align: center;
+  color: #1826e5
 }
 
 
@@ -103,32 +84,20 @@ text-align: center;
 
 
 h2 {text-align: center;
-color: aqua;
+color: #56cfea;
 }
 
 .homepagelink {
-color: aqua;
+color: #f4b942;
 }
 
-
-nav {
-  background-color: grey;
-  padding: 10px 30% 10px 30%;
-display: flex;
-justify-content: space-between;
+h2 {text-align: center;
+color: ;
 }
 
-.about-box {
-  display: flex;
-}
-
-.left-side {
-    border-style solid;
-   border-width: 6px;
-   border-left-width: 10px;
-   border-right-width: 10px;
-   border-color: red;}
-
-body {
-     margin: 0;
+.about-box{
+  border: 2px solid black;
+  width: 50%;
+  display: block;
+  margin: auto;
 }
