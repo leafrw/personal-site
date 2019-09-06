@@ -32,7 +32,7 @@ figure {
 
 nav {
   background-color: #232623;
-  padding: 20px 30% 25px 30%;
+  padding: 15px 20% 15px 20%;
   display: flex;
   justify-content: space-between;
 }
@@ -43,24 +43,31 @@ a {
 }
 
 a:hover{
-  color: #2936f2;
+  color: #f4b942;
 
 }
 
 h1 {
   text-align: center;
-  color: #2936f2
+  color: #813ec9
 }
 
 
 .skywrs {
   margin: auto;
   display: block;
+  width:200px;
+  height:600px;
 }
+
 
 .home-page-left-side {
   margin: auto;
   display: block;
+  width:280px;
+  height:600px;
+}
+
 }
 
 .thumbnail-label {
@@ -80,7 +87,7 @@ text-align: center;
 
 
 h2 {text-align: center;
-color: #edb707;
+color: #f4b942;
 }
 
 .homepagelink {
@@ -105,7 +112,8 @@ color: ;
 
 .thumbnail-label {
   text-align: center;
-  color: #56cfea;
+  color: #42ceed;
+  font-size: 20px;
 }
 
 img {
@@ -128,5 +136,19 @@ h2 {
 
 
 li {
-    font-size: 20px;
+    font-size: 30px;
+}
+
+button {
+  background-color: #8b948b;
+  border: none;
+  border-radius: 15px;
+  color: #813ec9;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 2px 15px;
+  cursor: pointer;
 }
